@@ -1,5 +1,13 @@
 import React from "react";
+import Welcome from "../components/Welcome";
+import "../../assets/styles/App.scss";
 
-const Contact = () => <h1>Aquí irá la página de contacto</h1>;
+const Contact = () => {
+  return (
+    <React.Fragment>
+      <Welcome />
+    </React.Fragment>
+  );
+};
 
 export default Contact;
