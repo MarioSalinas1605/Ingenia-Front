@@ -1,3 +1,4 @@
+@import "../Vars.scss";
 header {
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -7,6 +8,7 @@ header {
 }
 ul {
   margin-right: 70px;
+  font-family: $first-font;
 }
 li {
   color: black;
@@ -16,7 +18,7 @@ li {
   margin-left: 20px;
 }
 li:nth-child(3) {
-  color: orange;
+  color: $ingenia-orange;
 }
 img {
   margin-left: 70px;
