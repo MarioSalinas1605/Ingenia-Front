@@ -1,0 +1,43 @@
+@import "../Vars.scss";
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgImageCard {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.infoCard {
+  font-family: $first-font;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  .adressCard {
+    max-width: 175px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .secondAdress {
+      color: gray;
+      font-weight: 200;
+      text-align: center;
+    }
+    .phone {
+      margin-top: 8px;
+      color: orange;
+    }
+  }
+}

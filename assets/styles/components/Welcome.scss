@@ -1,0 +1,14 @@
+.welcome {
+  height: 100vh;
+  background-color: lightblue;
+}
+.welcome-header {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
+.welcome-card {
+  display: inline-block;
+  width: 50vw;
+  height: 100vh;
+}
