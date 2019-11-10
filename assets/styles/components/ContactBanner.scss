@@ -1,6 +1,6 @@
 @import "../Vars.scss";
 
-.contactUs {
+.ContactBanner {
   padding: 10px;
   background-color: $ingenia-orange;
   display: flex;
@@ -8,17 +8,17 @@
   align-items: center;
   color: white;
 
-  .descriptionContact {
+  .descriptionContactBanner {
     font-family: $second-font;
     font-size: 18px;
     margin: 80px 0 0 0;
   }
-  .contactTitle {
+  .contactTitleBanner {
     font-family: $first-font;
     font-size: 40px;
     margin: 10px 0;
   }
-  .secondDescriptionContact {
+  .secondDescriptionContactBanner {
     font-family: $second-font;
     font-size: 18px;
     margin-top: 5px;

@@ -1,0 +1,75 @@
+@import "../Vars.scss";
+
+// Particular styles
+.requiredTag {
+  margin: 0;
+  color: $ingenia-orange;
+  text-transform: uppercase;
+  font-size: 9px;
+  margin-left: 26px;
+}
+.numberIcon {
+  background-color: $ingenia-orange;
+  border-radius: 100%;
+  font-size: 12px;
+  padding: 2px 6px;
+  color: white;
+  margin-right: 8px;
+}
+input[type="text"] {
+  font-size: 15px;
+  padding: 4px;
+}
+// -----------------------
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 35px 0;
+}
+
+#contactForm {
+  width: 40vw;
+  margin: 15px 0;
+}
+
+.twoFieldsRow {
+  width: 100%;
+}
+
+.twoFieldsItem {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.inputTwoFieldsItem {
+  width: 75%;
+}
+.labelForm {
+  color: gray;
+  font-family: $first-font;
+}
+.bigFormInput {
+  margin: 7px 0 0 26px;
+  width: 82%;
+  height: 150px;
+}
+.oneFieldsRow {
+  margin-top: 15px;
+  width: 100%;
+}
+.buttonRow {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.buttonForm {
+  margin-right: 10%;
+  border: 0;
+  padding: 5px 8px;
+  text-transform: uppercase;
+  background-color: $ingenia-orange;
+  color: white;
+  font-family: $first-font;
+  font-size: 14px;
+}

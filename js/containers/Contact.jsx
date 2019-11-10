@@ -1,6 +1,6 @@
 import React from "react";
 import Welcome from "../components/Welcome";
-import ContactUs from "../components/ContactUs.jsx";
+import ContactUs from "./ContactUs.jsx";
 import "../../assets/styles/App.scss";
 
 const Contact = () => {
