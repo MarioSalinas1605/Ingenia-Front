@@ -1,0 +1,27 @@
+.placesContainer {
+  margin: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.gird-title {
+  text-transform: uppercase;
+  font-size: xx-small;
+  color: gray;
+  letter-spacing: 2px;
+}
+.title-right {
+  text-align: right;
+}
+.title-left {
+  text-align: left;
+}
+.border-right {
+  border-right: 1px solid rgba(200, 200, 200, 0.8);
+}
