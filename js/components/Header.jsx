@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <header>
       <img src={logo} alt="Logo of Ingenia" />
-      <ul>
-        <li>about us</li>
-        <li>our work</li>
-        <li>contact</li>
-        <li>manifiesto</li>
+      <ul className="ul-header">
+        <li className="li-header">about us</li>
+        <li className="li-header">our work</li>
+        <li className="li-header">contact</li>
+        <li className="li-header">manifiesto</li>
       </ul>
     </header>
   );
