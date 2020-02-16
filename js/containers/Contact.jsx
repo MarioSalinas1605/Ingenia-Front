@@ -2,6 +2,7 @@ import React from "react";
 import Welcome from "../components/Welcome";
 import ContactUs from "./ContactUs.jsx";
 import Places from "./Places.jsx";
+import Footer from "./Footer.jsx";
 import "../../assets/styles/App.scss";
 
 const Contact = () => {
@@ -10,6 +11,7 @@ const Contact = () => {
       <Welcome />
       <ContactUs />
       <Places />
+      <Footer />
     </React.Fragment>
   );
 };

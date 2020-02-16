@@ -1,0 +1,25 @@
+@import "../Vars.scss";
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 7%;
+  background-color: $footer-bg-color;
+}
+.footer-up-rights {
+  color: $footer-normal-color;
+  font-size: 14px;
+}
+.footer-up-buttons {
+  display: flex;
+  list-style-type: none;
+}
+.footer-up-li {
+  color: $footer-normal-color;
+  font-size: 14px;
+  padding: 0 7px;
+  border-right: 1px solid rgb(200, 200, 200);
+}
+ul li.footer-up-li:last-child {
+  border: none;
+}
