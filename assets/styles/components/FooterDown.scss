@@ -1,3 +1,5 @@
+@import "../Vars.scss";
+
 .footer-down-container {
   display: flex;
   justify-content: space-between;
@@ -5,4 +7,14 @@
 }
 .footer-down-cards-container {
   display: flex;
+}
+.footer-down-right-elements {
+  width: 25%;
+  text-align: right;
+}
+.FooterDown__rightTitle {
+  padding-top: 23px;
+  color: $footer-normal-color;
+  font-size: small;
+  // letter-spacing: 1.5px;
 }

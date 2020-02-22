@@ -22,7 +22,7 @@ let FooterDown = () => {
         <SimpleUbicationCard data={ubications.MX}></SimpleUbicationCard>
       </div>
       <div className="footer-down-right-elements">
-        <h3>Here will go my right elements</h3>
+        <p className="FooterDown__rightTitle">Terms of use | Privacy policy</p>
       </div>
     </div>
   );
